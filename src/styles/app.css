@@ -1,0 +1,18 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(50, 56, 75);
+}
+
+.nasa-logo {
+    height: 200px;
+    width: 400px;
+    padding-top: 50px;
+}
+
+.search-box {
+    width: 300px;
+    height: 50px;
+    padding-top: 400px;
+}

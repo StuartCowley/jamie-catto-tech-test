@@ -1,10 +1,13 @@
 import React from 'react';
+import Search from './Search';
 import '../styles/app.css';
 
-function App() {
+const App = () => {
   return (
     <div className="app">
-      <p>Hello world!</p>
+      <img src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg" 
+      alt="NASA Logo" className="nasa-logo"></img>
+      <Search className="search-box" />
     </div>
   );
 }
