@@ -7,7 +7,7 @@ const App = () => {
     <div className="app">
       <img src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg" 
       alt="NASA Logo" className="nasa-logo"></img>
-      <Search className="search-box" />
+      <Search />
     </div>
   );
 }

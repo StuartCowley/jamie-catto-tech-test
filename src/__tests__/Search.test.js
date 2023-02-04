@@ -8,4 +8,4 @@ describe("Search", () => {
     
         expect(asFragment()).toMatchSnapshot();
       });
-})
+});
