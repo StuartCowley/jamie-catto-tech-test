@@ -4,7 +4,7 @@ import SearchResults from './SearchResults';
 import '../styles/app.css';
 
 const App = () => {
-  const [searchResults, setSearchResults] = useState();
+  const [searchResults, setSearchResults] = useState([]);
 
   return (
     <div className="app">
