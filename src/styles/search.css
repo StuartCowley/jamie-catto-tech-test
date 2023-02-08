@@ -1,23 +1,25 @@
-.search-box {
-    width: 20%;
-    height: 50px;
-    border-radius: 11px;
-    font-size: 20px;
-    padding: 0 10px;
-}
-
 .search-form {
     display: flex;
     flex-direction: row;
     gap: 10px;
     padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+
+.search-box {
+    background-color: white;
+    width: 40%;
+    height: 50px;
+    border-radius: 11px;
+    font-size: 20px;
+    padding: 8px;
 }
 
 .search-btn {
     color: rgb(255, 255, 255);
-    background-color: rgb(50, 56, 75);
+    background-color: #0066CC;
     border-radius: 8px;
     font-size: 25px;
     font-family: "Sofia Sans", sans-serif;
-    padding: 10px;
 }

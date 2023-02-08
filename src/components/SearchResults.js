@@ -4,22 +4,22 @@ import PropTypes from 'prop-types';
 
 const SearchResults = ({ results }) => {
     if (!results.length) {
-        return <p>No results.</p>
+        return <p className='no-results'>No results.</p>
         
     }
     return (
-        <>
-        {results.map((img, index) => {
-            return (
-                <img 
-                className="search-result-item" 
-                src={img}
-                alt=""
-                key={index}
-                data-testid="result-item" />
-                )
-            })}
-        </>
+        <div className='search-results'>
+            {results.map((img, index) => {
+                return (
+                    <img 
+                    className="search-result-item" 
+                    src={img}
+                    alt=""
+                    key={index}
+                    data-testid="result-item" />
+                    )
+                })}
+         </div>
     );
 }
 
