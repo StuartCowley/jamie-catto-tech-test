@@ -1,14 +1,14 @@
 .search-results {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
 .search-result-item {
-    max-width: 600px;
-    max-height: 500px;
+    height: 200px;
+    width: 300px;
     padding: 10px;
 }
 
