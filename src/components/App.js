@@ -12,7 +12,7 @@ const App = () => {
       alt="NASA Logo" className="nasa-logo"></img>
       <Search
       setSearchResults={setSearchResults} />
-      <SearchResults />
+      <SearchResults results={searchResults}/>
     </div>
   );
 }
