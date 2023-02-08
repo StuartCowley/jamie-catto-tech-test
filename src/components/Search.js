@@ -17,8 +17,10 @@ const Search = ({setSearchResults}) => {
         <form className="search-form" onSubmit={handleSubmit}>
             <input type="text" className="search-box"
             onChange={(e) => setValue(e.target.value)} />
-            <button className="search-btn"
-            type="submit">Search</button>
+            <button 
+            className="search-btn"
+            type="submit"
+            data-testid="search-btn">Search</button>
         </form>
         </>
     )

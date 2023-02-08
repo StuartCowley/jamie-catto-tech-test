@@ -15,7 +15,8 @@ const SearchResults = ({ results }) => {
                 className="search-result-item" 
                 src={img}
                 alt=""
-                key={index} />
+                key={index}
+                data-testid="result-item" />
                 )
             })}
         </>
