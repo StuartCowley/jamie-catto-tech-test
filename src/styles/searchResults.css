@@ -1,0 +1,19 @@
+.search-results {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-result-item {
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+}
+
+.no-results {
+    color: white;
+    font-size: 25px;
+    font-family: "Sofia Sans", sans-serif;
+}

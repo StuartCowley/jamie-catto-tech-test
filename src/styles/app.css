@@ -1,0 +1,14 @@
+* {
+    background-color: rgb(50, 56, 75);
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(50, 56, 75);
+}
+
+.nasa-logo {
+    height: 50vh;
+}
